@@ -1,0 +1,65 @@
+.template
+{
+	display:flex;
+	flex-direction:column;
+	border:2px solid black;
+	margin:300px;
+	margin-top:50px;
+}
+.template .one
+{
+	display:flex;
+	flex-direction:column;
+	background-color:black;
+}
+.template .one .box
+{
+	height:20px;
+	width:100px;
+	background-color:white;
+	margin:5px;
+	margin-left:320px;
+}
+
+.template .two
+{
+	display:flex;
+	flex-direction:column;
+	background-color:white;
+}
+.template .two .text
+{
+	height:20px;
+	width:100px;
+	background-color:gray;
+	margin:10px;
+	margin-left:320px;
+}
+.template .three
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	background-color:black;
+}
+.template .three .box
+{
+	height:75px;
+	width:150px;
+	background-color:white;
+	margin:50px;
+}
+.template .four
+{
+	display:flex;
+	flex-direction:column;
+	background-color:white;
+}
+.template .four .text
+{
+	height:20px;
+	width:100px;
+	background-color:gray;
+	margin:5px;
+	margin-left:320px;
+}
