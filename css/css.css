@@ -14,11 +14,32 @@
 }
 .template .one .box
 {
-	height:20px;
+	height:50px;
+	width:50px;
+	background-color:white;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin:0px auto;
+	border-radius:100%;
+	text-align:center;
+}
+.template .one .dark
+{
+	height:30px;
 	width:100px;
 	background-color:white;
-	margin:5px;
-	margin-left:320px;
+	margin:0px auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.template .one .text
+{
+	height:20px;
+	width:80px;
+	background-color:white;
+	margin:0px auto;
+	margin-top:5px;
+	margin-bottom:5px;
 }
 
 .template .two
@@ -27,13 +48,23 @@
 	flex-direction:column;
 	background-color:white;
 }
-.template .two .text
+.template .two .dark
 {
 	height:20px;
 	width:100px;
 	background-color:gray;
-	margin:10px;
-	margin-left:320px;
+	margin:0px auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.template .two .text
+{
+	height:100px;
+	width:200px;
+	background-color:gray;
+	margin:0px auto;
+	margin-top:5px;
+	margin-bottom:5px;
 }
 .template .three
 {
@@ -44,10 +75,12 @@
 }
 .template .three .box
 {
-	height:75px;
-	width:150px;
+	height:100px;
+	width:100px;
 	background-color:white;
-	margin:50px;
+	border-radius:100%;
+	margin:10px;
+	text-align:center;
 }
 .template .four
 {
@@ -55,11 +88,21 @@
 	flex-direction:column;
 	background-color:white;
 }
-.template .four .text
+.template .four .dark
 {
 	height:20px;
 	width:100px;
 	background-color:gray;
-	margin:5px;
-	margin-left:320px;
+	margin:0px auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.template .four .text
+{
+	height:100px;
+	width:200px;
+	background-color:gray;
+	margin:0px auto;
+	margin-top:5px;
+	margin-bottom:5px;
 }
