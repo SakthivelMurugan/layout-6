@@ -2,9 +2,8 @@
 {
 	display:flex;
 	flex-direction:column;
-	border:2px solid black;
-	margin:300px;
-	margin-top:50px;
+	margin-bottom:10px;
+	margin-top:10px;
 }
 .template .one
 {
@@ -14,32 +13,32 @@
 }
 .template .one .box
 {
-	height:50px;
-	width:50px;
+	height:80px;
+	width:80px;
 	background-color:white;
-	margin-top:5px;
-	margin-bottom:5px;
+	margin-top:10px;
+	margin-bottom:10px;
 	margin:0px auto;
 	border-radius:100%;
 	text-align:center;
 }
 .template .one .dark
 {
+	height:40px;
+	width:150px;
+	background-color:white;
+	margin:0px auto;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.template .one .text
+{
 	height:30px;
 	width:100px;
 	background-color:white;
 	margin:0px auto;
-	margin-top:5px;
-	margin-bottom:5px;
-}
-.template .one .text
-{
-	height:20px;
-	width:80px;
-	background-color:white;
-	margin:0px auto;
-	margin-top:5px;
-	margin-bottom:5px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 
 .template .two
@@ -50,21 +49,21 @@
 }
 .template .two .dark
 {
-	height:20px;
-	width:100px;
+	height:30px;
+	width:150px;
 	background-color:gray;
 	margin:0px auto;
-	margin-top:5px;
-	margin-bottom:5px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 .template .two .text
 {
 	height:100px;
-	width:200px;
+	width:250px;
 	background-color:gray;
 	margin:0px auto;
-	margin-top:5px;
-	margin-bottom:5px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 .template .three
 {
@@ -90,19 +89,19 @@
 }
 .template .four .dark
 {
-	height:20px;
-	width:100px;
+	height:30px;
+	width:150px;
 	background-color:gray;
 	margin:0px auto;
-	margin-top:5px;
-	margin-bottom:5px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 .template .four .text
 {
 	height:100px;
-	width:200px;
+	width:250px;
 	background-color:gray;
 	margin:0px auto;
-	margin-top:5px;
-	margin-bottom:5px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
